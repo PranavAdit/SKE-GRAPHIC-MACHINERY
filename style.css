@@ -1,0 +1,334 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  
+*{
+  scroll-behavior: smooth;
+}
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    margin-top: -15px;
+}
+
+
+#navbar{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    width: 1000px;
+    margin-left: 100px;
+    justify-content: flex-start;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.nav{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 1000;
+    padding: 8px 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgb(98, 26, 0);
+    
+}
+.nav_1{
+    color: rgb(0, 0, 0);
+    
+    font-size: 25px;
+    font-weight: 1000;
+    padding: 8px 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 98, 0);
+
+}
+
+ul li :hover{
+    color: rgb(255, 174, 0);
+    background-color: rgb(10, 10, 10);
+    transition: 6ms;
+    transform: scale(2);
+}
+
+
+.box1{
+    width: 100%;
+    height: 700px;
+    background-image: url(Images/Komari_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: grid;
+    align-content: end;
+    justify-content: end;
+}
+.box1 h3{
+    margin-left: 50px;
+    color: beige;
+    background-color: #001F3F;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.box2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+#About{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    
+}
+
+
+.intro1{
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+    background-color: #001F3F;
+    color: #ffffff;
+}
+.intro1 h1{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main_box1{
+    width: 95%;
+    height: 200px;
+    display: flex;
+    padding: 8px;
+    gap: 150px;
+    margin-top: 70px;
+    
+    
+}
+
+
+
+.cont1{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    background-color: #001F3F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #c35400;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont2{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    background-color: #001F3F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #c00707;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+.box3{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+#Product{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.intro2{
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+    background-color: #001F3F;
+    color: #ffffff;
+}
+.intro2 h1{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.machinery_img1{
+    width: 90%;
+    height: 300px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "img1 mech1";
+}
+.machinery_img2{
+    width: 90%;
+    height: 300px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "mech2 img2 ";
+}
+.machinery_img3{
+    width: 90%;
+    height: 300px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "mech3 img3";
+}
+
+
+.mech1{
+    background-color: #001F3F;
+    display: flex;
+    border-radius: 12px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+.mech2{
+    background-color: #001F3F;
+    display: flex;
+    border-radius: 12px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+.mech3{
+    background-color: #001F3F;
+    display: flex;
+    border-radius: 12px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+
+
+
+
+
+.box4{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+#Service{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.intro3{
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+    background-color: #001F3F;
+    color: #ffffff;
+}
+.intro3 h1{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.serv{
+    width: 100%;
+    display: grid;
+    background-color: #001F3F;
+    padding-top: 12px;
+    
+}
+.serv h3{
+    color: #c35400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    justify-content: center;
+}
+p{
+    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+footer {
+    background-color: #001F3F;
+    color: white;          
+    padding: 20px;         
+    text-align: center;    
+  }
+  
+  .contact-us h3 {
+    margin-bottom: 10px;  
+  }
+  
+  .contact-us address {
+    font-style: normal;    
+    margin-bottom: 10px; 
+  }
+  
+  .contact-us a {
+    color: #007bff;       
+    text-decoration: none; 
+  }
+
+
+
+
+
+
